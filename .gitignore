@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables
+.env
+
+# Virtual Environment
+venv/
+env/
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Azure
+.azure/
