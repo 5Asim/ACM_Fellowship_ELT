@@ -9,10 +9,69 @@ __pycache__/
 # Virtual Environment
 venv/
 env/
+*.venv/
 
 # Docker
 Dockerfile
 docker-compose.yml
+*.docker/
 
 # Azure
 .azure/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg-info/
+*.egg
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pyenv
+.python-version
+
+# pytest
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Cython debug symbols
+cython_debug/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Backup files
+*~ 
+*.bak
+*.swp
