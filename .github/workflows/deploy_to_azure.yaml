@@ -3,6 +3,10 @@ name: Deploy Python project to Azure Function App
 on:
   [push]
 
+permissions:
+  id-token: write
+  contents: read
+
 env:
   AZURE_FUNCTIONAPP_NAME: 'eltScipt'   # set this to your function app name on Azure
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'  # set this to the path to your function app project, defaults to the repository root
