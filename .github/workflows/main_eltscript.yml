@@ -75,4 +75,6 @@ jobs:
         with:
           app-name: ${{ github.event.inputs.GIT_FunctionApp_Name }}
           package: ${{ github.workspace }}/${{ github.event.inputs.GIT_FunctionApp_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3970AA69330A4D0AA8EB051F5B5CCB5E }}
+          -do-build-during-deployment: true
+          enable-oryx-build: true
