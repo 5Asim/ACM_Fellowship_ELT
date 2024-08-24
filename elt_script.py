@@ -48,6 +48,10 @@ def load_data(df):
         print(f"Error in load_data: {e}")
         raise
 
+@app.route('/')
+def home():
+    return "Hello, Flask is running on Azure!"
+
 @app.route('/view_data', methods=['GET'])
 def view_data():
     try:
